@@ -1,3 +1,17 @@
+
 *.cache/
 *.hw/
 *.runs/
+
+# Vitis
+.cproject
+.project
+_ide
+
+# Vivado
+*.jou
+*.log
+
+# General
+*.*~
+*~
