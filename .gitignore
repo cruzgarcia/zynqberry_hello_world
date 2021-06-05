@@ -2,6 +2,7 @@
 *.cache/
 *.hw/
 *.runs/
+*.fuse*
 
 # Vitis
 .cproject
@@ -11,7 +12,16 @@ _ide
 # Vivado
 *.jou
 *.log
+*.bxml
 
 # General
 *.*~
 *~
+
+# Specifics
+hdl/hello_world_bd/*.xdc
+hdl/hello_world_bd/ip
+hdl/hello_world_bd/sim
+hdl/hello_world_bd/synth
+hdl/hello_world_bd/ui
+hdl/hello_world_bd/*.xcd
